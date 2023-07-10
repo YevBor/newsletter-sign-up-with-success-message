@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="signup">
+      <picture class="signup__image">
+        <source
+          class="signup__source"
+          srcset="./assets/images/illustration-sign-up-mobile.svg"
+          media="(max-width: 500px)"
+        />
+        <img
+          class="signup__img"
+          src="./assets/images/illustration-sign-up-desktop.svg"
+          alt="illustration"
+        />
+      </picture>
+      <form class="signup__form">
+        <h1 class="signup__title">Stay updated!</h1>
+        <p class="signup__description">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <ul class="signup__list">
+          <li class="signup__item">
+            Product discovery and building what matters
+          </li>
+          <li class="signup__item">
+            Meassuring to ensure updates are a success
+          </li>
+          <li class="signup__item">And much more</li>
+        </ul>
+        <label class="signup__label" for="signupInput">Email address</label>
+        <input
+          class="signup__input"
+          type="text"
+          placeholder="email@company.com"
+          id="signupInput"
+        />
+        <button class="signup__button">Subscribe to monthly newslatter</button>
+      </form>
+    </section>
+  </body>
+</html>
